@@ -1,0 +1,128 @@
+body {
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.bg-light {
+  background-color: #f6f6fa !important;
+}
+.primary-btn {
+  border-radius: 50px;
+  border: 1.8px solid #3e63f4;
+  font-weight: 500;
+  padding: .30rem .95rem !important;
+}
+.primary-btn:hover,.primary-btn:focus {
+  background-color: #3e63f4;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+.title {
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  padding: 15px;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.main-tabs {
+  margin-top: 0.7rem;
+  border-bottom: 1px solid #f6f6fa;
+}
+.tab-content {
+  border: 1px solid #f6f6fa;
+  border-top: 0;
+}
+.main-tabs .nav-link {
+  font-weight: 700;
+  color: #a3a3a3;
+  letter-spacing: 0.1rem;
+  padding: 12px 50px;
+  text-align: center;
+}
+.main-tabs .nav-link.active,
+.main-tabs .show > .nav-link {
+  background-color: #a4edfc;
+  color: #000;
+  border-radius: 0%;
+}
+.heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.07rem;
+}
+.align-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.detail-btn {
+  display: flex;
+  align-items: flex-start;
+}
+.vector-detail-div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.vector-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.vector-title {
+  margin-bottom: 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+}
+.vendor-title {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+.vendor-img{
+    max-height: 55px;
+    max-width: 200px;
+}
+.vendor-desc {
+  text-align: justify;
+  line-height: 1.4rem;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: 400 !important;
+  color: #4f4f4f !important;
+}
+.no-allies{
+    margin: 0.8rem 0 1rem 2.7rem;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+.no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+}
+.loader-div {
+  height: 300px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
